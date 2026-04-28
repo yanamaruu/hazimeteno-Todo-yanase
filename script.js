@@ -18,6 +18,8 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app); // 認証機能を初期化
 
+const todoform = document.getElementById('todo-form');
+
 // --- [2] ログイン・ログアウトの処理 ---
 const loginBtn = document.getElementById('login-btn');
 const logoutBtn = document.getElementById('logout-btn');
