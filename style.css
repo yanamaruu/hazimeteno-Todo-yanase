@@ -53,3 +53,13 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* ログインしていない時はToDo入力を隠すなど、状況に合わせた調整 */
+#todo-form {
+    display: none; /* JSで制御するまで隠しておく */
+}
+
+/* ログイン中だけ表示させるクラス（JSで制御） */
+.is-logged-in #todo-form {
+    display: flex;
+}
