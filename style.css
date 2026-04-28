@@ -1,3 +1,55 @@
-body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f4f4f4; }
-.container { background: white; padding: 2rem; border-radius: 8px; margin-top: 50px; }
-/* ...以下、デザインの続きを記述... */
+/* 全体の設定 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+    background-color: #f0f2f5; /* 少し青みのある明るいグレー */
+    color: #333;
+    display: flex;
+    justify-content: center; /* 左右中央 */
+    align-items: flex-start; /* 上側に寄せる */
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 60px; /* 上の余白 */
+}
+
+/* メインの箱 */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 400px; /* 横幅が広がりすぎないように */
+    padding: 2.5rem;
+    border-radius: 16px; /* 角をさらに丸くして可愛く */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* 柔らかい影 */
+}
+
+/* 見出し */
+h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+/* 入力エリアの調整（これも追加するといいですよ！） */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #0070f3; /* クリックした時に青くなる */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
