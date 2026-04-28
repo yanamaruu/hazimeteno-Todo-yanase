@@ -4,7 +4,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebas
 import { getFirestore, collection, addDoc, onSnapshot, query, orderBy, deleteDoc, doc, serverTimestamp, where } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-const firebaseConfig = { /* あなたのコンフィグ */ };
+const firebaseConfig = {
+  apiKey: "AIzaSyC07ffQp44CTQsGe6jzfo79FsI4ok5WrXc",
+  authDomain: "hazimeteno-todo-list.firebaseapp.com",
+  projectId: "hazimeteno-todo-list",
+  storageBucket: "hazimeteno-todo-list.firebasestorage.app",
+  messagingSenderId: "1028454995902",
+  appId: "1:1028454995902:web:6fdf7d1fb9c40a73ea0bef",
+  measurementId: "G-7EP1KTHWB8"
+};
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
