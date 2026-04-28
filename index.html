@@ -11,6 +11,24 @@
     <main class="container">
         <header>
             <h2>ToDo List</h2>
+            <div id="auth-section">
+                <input type="email" id="email-input" placeholder="メールアドレス">
+                <input type="password" id="password-input" placeholder="パスワード">
+                <button id="login-btn">ログイン / 新規登録</button>
+              <button id="logout-btn" style="display: none;">ログアウト</button>
+            </div>
+            <div id="auth-container" style="background: #f4f4f4; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+               <div id="login-form">
+               <input type="email" id="email-input" placeholder="メールアドレス">
+               <input type="password" id="password-input" placeholder="パスワード">
+               <button id="login-btn">ログイン / 登録</button>
+            </div>
+    <div id="user-info" style="display: none;">
+        <span id="user-email"></span>
+        <button id="logout-btn">ログアウト</button>
+    </div>
+</div>
+<p id="user-status">読み込み中...</p>
         </header>
 
         <form id="todo-form" class="input-group">
