@@ -1,24 +1,24 @@
 /* 全体の設定 */
 body {
     font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
-    background-color: #f0f2f5; /* 少し青みのある明るいグレー */
+    background-color: #f0f2f5; 
     color: #333;
     display: flex;
-    justify-content: center; /* 左右中央 */
-    align-items: flex-start; /* 上側に寄せる */
+    justify-content: center; 
+    align-items: flex-start; 
     min-height: 100vh;
     margin: 0;
-    padding-top: 60px; /* 上の余白 */
+    padding-top: 60px; 
 }
 
 /* メインの箱 */
 .container {
     background: white;
     width: 90%;
-    max-width: 400px; /* 横幅が広がりすぎないように */
+    max-width: 400px; 
     padding: 2.5rem;
-    border-radius: 16px; /* 角をさらに丸くして可愛く */
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* 柔らかい影 */
+    border-radius: 16px; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
 }
 
 /* 見出し */
@@ -30,7 +30,7 @@ h2 {
     color: #1a1a1a;
 }
 
-/* 入力エリアの調整（これも追加するといいですよ！） */
+/* 入力エリアの調整 */
 input[type="text"] {
     width: 70%;
     padding: 10px;
@@ -41,7 +41,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #0070f3; /* クリックした時に青くなる */
+    border-color: #0070f3; /* クリックした時に青くなるやつ */
 }
 
 button {

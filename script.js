@@ -22,8 +22,8 @@ const logoutBtn = document.getElementById('logout-btn');
 const emailInput = document.getElementById('email-input');
 const passwordInput = document.getElementById('password-input');
 const todoForm = document.getElementById('todo-form');
-const inputEl = document.getElementById('todo-input'); // ここが抜けていました
-const todoList = document.getElementById('todo-list'); // ここが抜けていました
+const inputEl = document.getElementById('todo-input'); 
+const todoList = document.getElementById('todo-list'); 
 
 let unsubscribe = null;
 
